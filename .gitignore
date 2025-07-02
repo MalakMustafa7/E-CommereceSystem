@@ -1,0 +1,25 @@
+# Ignore build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore appsettings (sensitive config)
+**/appsettings.json
+**/appsettings.Development.json
+
+# Ignore publish folder
+**/Publish/
+**/PubTmp/
+
+# Ignore VS Code
+.vscode/
+
+# Ignore logs
+*.log
